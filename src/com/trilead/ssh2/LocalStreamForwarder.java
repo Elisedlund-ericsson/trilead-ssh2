@@ -75,4 +75,9 @@ public class LocalStreamForwarder
 	{
 		cm.closeChannel(cn, "Closed due to user request.", true);
 	}
+	
+    public int getLocalPort() 
+    {
+        return lat.getLocalPort();
+    }
 }
